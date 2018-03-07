@@ -1,0 +1,1 @@
+miner.exe --server eu1-zcash.flypool.org --user t1SKDhdufJntmAHrWuqjH6Am9XyM6Q1jDDv.autominer --pass x --port 3333
