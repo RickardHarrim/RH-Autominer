@@ -13,6 +13,7 @@ How to turn of the script:
 Since it is a silent miner, the miner won’t run in a normal window, so you can’t just close the window to shut the miner down.
 To shut down the miner, open task manger, navigate to processes and search for “miner.exe” or “miner”.
 When you have found it, it’s just to mark it and click on “End task”.
+
 WARNING
 
 What the installer does:
