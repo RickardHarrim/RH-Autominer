@@ -6,14 +6,14 @@ on a new computer or just infect someone else’s computer to mine for you in th
 Currently RH Autominer 1.0 only supports equihash coins, such as Zcash witch is preinstalled.
 RH Autominer 2.0 will support ethash coins in the future.
 
-*WARNING*
+WARNING
 Use on your own risk. 
 It could be illegal to run this script on someone’s computer without them knowing.
 How to turn of the script: 
 Since it is a silent miner, the miner won’t run in a normal window, so you can’t just close the window to shut the miner down.
 To shut down the miner, open task manger, navigate to processes and search for “miner.exe” or “miner”.
 When you have found it, it’s just to mark it and click on “End task”.
-*WARNING*
+WARNING
 
 What the installer does:
 When the usb drive is inserted to a new computer nothing will happen until you start “installer.bat”.
