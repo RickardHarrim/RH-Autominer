@@ -6,7 +6,7 @@ on a new computer or just infect someone else’s computer to mine for you in th
 Currently RH Autominer 1.0 only supports equihash coins, such as Zcash witch is preinstalled.
 RH Autominer v2.0 will support ethash coins in the future.
 
-# WARNING
+###### WARNING
 Use on your own risk. 
 It could be illegal to run this script on someone’s computer without them knowing.
 How to turn of the script: 
