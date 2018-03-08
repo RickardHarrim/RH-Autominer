@@ -1,7 +1,7 @@
 # RH-Autominer
 RH Autominer v1.0
 
-RH's USB Autominer is meant ro be put on a usb drive so you can quickly start a mining operation
+RH's USB Autominer is meant to be put on a usb drive so you can quickly start a mining operation
 on a new computer or just infect someone else’s computer to mine in the background for you, without them knowing.
 The current version (1.0) only supports equihash coins, such as Zcash witch is preinstalled.
 Version 2.0 will support ethash coins in the future.
